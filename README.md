@@ -1,1 +1,1 @@
-# council-manager-api
+# council-management-app
