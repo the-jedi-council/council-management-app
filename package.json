@@ -8,7 +8,7 @@
   "private": null,
   "scripts": {
     "start": "npm-run-all --parallel watch:server start:web",
-    "start:web": "react-scripts start",
+    "start:web": "cd ui && react-scripts start",
     "start:server": "node api/server",
     "watch:server": "nodemon --watch api/server api/server",
     "build": "react-scripts build",
