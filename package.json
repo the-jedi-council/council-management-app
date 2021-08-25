@@ -5,15 +5,14 @@
   "main": "api/app.js",
   "repository": "git@github.com:the-jedi-council/council-management-app.git",
   "author": "The Jedi Council",
-  "private": null,
   "scripts": {
     "start": "npm-run-all --parallel watch:server start:web",
     "start:web": "cd ui && react-scripts start",
     "start:server": "node api/server",
     "watch:server": "nodemon --watch api/server api/server",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "cd ui && react-scripts build",
+    "test": "cd ui && react-scripts test --env=jsdom",
+    "eject": "cd ui && react-scripts eject"
   },
   "dependencies": {
     "@material-ui/core": "4.5.1",

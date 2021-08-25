@@ -9,7 +9,7 @@ const AppHeader = () => (
   <AppBar position="static">
     <Toolbar>
       <Typography variant="h6" color="inherit">
-        My React App
+        The Jedi Council
       </Typography>
     </Toolbar>
   </AppBar>
