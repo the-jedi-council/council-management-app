@@ -7,6 +7,7 @@ import {
 } from '@material-ui/core';
 
 import AppHeader from './components/AppHeader';
+import MemberManager from './pages/MembersManager';
 import Home from './pages/Home';
 
 const styles = theme => ({
@@ -24,6 +25,7 @@ const App = ({ classes }) => (
     <AppHeader />
     <main className={classes.main}>
       <Route exact path="/" component={Home} />
+      <Route path="/members" component={MemberManager} />
       <Route path="/login/callback" component={LoginCallback} />
     </main>
   </Fragment>

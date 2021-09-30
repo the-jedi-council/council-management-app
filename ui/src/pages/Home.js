@@ -4,5 +4,5 @@ import {
 } from '@material-ui/core';
 
 export default () => (
-  <Typography variant="h4">Welcome Home!</Typography>
+  <Typography variant="h5">Welcome to the Home page!</Typography>
 );
