@@ -75,7 +75,7 @@ class MemberManager extends Component {
     if (member.id) {
       await this.fetch('put', `/members/${member.id}`, member);
     } else {
-      await this.fetch('member', '/members', member);
+      await this.fetch('post', '/members', member);
     }
 
     this.props.history.goBack();

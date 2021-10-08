@@ -1,3 +1,6 @@
+# Dev environment
 .env
+
+# Node.js resources
 node_modules/
 */node_modules
